@@ -60,7 +60,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </a>
 
                     <div class="text-center">
-                      <a class="small" href="#">Forgot Password?</a>
+                      <a class="small" href="<?= base_url('Auth/forgotPassword'); ?>">Forgot Password?</a>
                     </div>
                     <div class="text-center">
                       <a class="small" href="<?= base_url('Auth/register'); ?>">Create an Account!</a>

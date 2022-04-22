@@ -2,12 +2,10 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +20,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
   <!-- Custom styles for this template-->
   <link href="<?= base_url('assets/css/sb-admin-2.min.css'); ?>" rel="stylesheet">
-
 </head>
 
 <body class="bg-gradient-primary">
@@ -65,7 +62,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
               </form>
               <hr>
               <div class="text-center">
-                <a class="small" href="#">Forgot Password?</a>
+                <a class="small" href="<?= base_url('Auth/forgotPassword'); ?>">Forgot Password?</a>
               </div>
               <div class="text-center">
                 <a class="small" href="<?= base_url('Auth/login'); ?>">Already have an account? Login!</a>
